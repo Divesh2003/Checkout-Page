@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="/Checkout Page Amazon/style.css">
+</head>
+<body>
+    <form action="" method="get">
+        <div class="container">
+            <h1 class="main-head">Payment Form</h1>
+            <hr>
+            <p>Name: *
+                <input type="text" required name="name" placeholder="Divesh Mandhyan">
+            </p>
+            <p>
+                <fieldset>
+                    <legend>Gender :</legend>
+                    Male <input type="radio" name="gender" id="female" value="F" required> Female <input type="radio" name="gender" id="male" value="" required>
+                </fieldset>
+            </p>
+            <p>
+                Address:
+                <br>
+                <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter Your Address"></textarea>
+            </p>
+            <p>
+                Email:
+                <input type="email" name="email" id="email" placeholder="dtechnologies@gmail.com">
+            </p>
+            <p>
+                Pincode:
+                <input type="number" name="pincode" id="pincode" placeholder="112233" maxlength="6">
+            </p>
+            <h2>Payment Information</h2>
+            <p>Card Type:
+            <select name="card" id="card">
+                <option name="select">--Select Your Card--</option>
+                <option name="mastercard">Mastercard</option>
+                <option name="rupay">Rupay</option>
+                <option name="visa">Visa</option>
+            </select>
+            </p>
+            <p>
+                Card:*
+                <input type="number" name="cardnumber" id="cardnumber" placeholder="1111-2222-3333-4444" maxlength="16">
+            </p>
+            <p>
+                Expiration Date:
+                <input type="date" name="date" id="date">
+            </p>
+            <p>
+                CVV:
+                <input type="password" name="cvv" id="cvv" maxlength="3" placeholder="1XX">
+            </p>
+            <p>
+                <input type="button" class="button" value="Pay Now">
+            </p>
+        </div>
+    </form>
+    <footer>
+        <p>Copyright &copy; dtechnologies 2021</p>
+        <p>Founder of dtechnologies: Divesh Mandhyan</p>
+    </footer>
+</body>
+</html>
